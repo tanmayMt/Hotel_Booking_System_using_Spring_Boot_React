@@ -1,0 +1,32 @@
+***************************************************************************************************
+npm create vite@latest
+***************************************************************************************************
+Need to install the following packages:
+  create-vite@5.5.3
+Ok to proceed? (y) y
+√ Project name: ... hotel-booking-system-client
+√ Select a framework: » React
+Scaffolding project in G:\Hotel_Booking_System\hotel-booking-system-client...
+Done. Now run:
+  cd hotel-booking-system-client
+  npm install
+  npm run dev
+***************************************************************************************************
+PS G:\Hotel_Booking_System> cd hotel-booking-system-client
+***************************************************************************************************
+***************************************************************************************************
+PS G:\Hotel_Booking_System\hotel-booking-system-client> npm install
+***************************************************************************************************
+added 257 packages, and audited 258 packages in 46s
+100 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+***************************************************************************************************
+PS G:\Hotel_Booking_System\hotel-booking-system-client> npm run dev
+***************************************************************************************************
+> hotel-booking-system-client@0.0.0 dev
+> vite
+  VITE v5.4.9  ready in 1085 ms
+  ➜  Local:http:/localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
