@@ -28,7 +28,7 @@ public class RoomResponse {
 
     // @SuppressWarnings("deprecation")
     public RoomResponse(Long id, String roomType, BigDecimal roomPrice, boolean isBooked,
-                        byte[] photoBytes , List<BookingResponse> bookings) {
+                        byte[] photoBytes , List<BookingResponse> bookings){
         this.id = id;
         this.roomType = roomType;
         this.roomPrice = roomPrice;
@@ -36,5 +36,4 @@ public class RoomResponse {
         this.photo = photoBytes != null ? Base64.encodeBase64String(photoBytes) : null;
         this.bookings = bookings;
     }
-
 }
